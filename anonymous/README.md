@@ -1,6 +1,7 @@
 # Anonymous
 
 <b>Available at: </b>[TryHackMe](https://tryhackme.com/room/anonymous)
+<b>Room by: </b>[Nameless0ne](https://tryhackme.com/p/Nameless0ne)
 
 A medium level machine, feel free to read my notes
 
