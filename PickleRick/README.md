@@ -84,10 +84,6 @@ This screams hydra to me.
 `hydra -l R1ckRul3s -P /usr/share/wordlists/rockyou.txt http://10.10.0.135 http-post-form/login.php:username=^USER^&password=^PASS^&sub=Login:Invalid username or password." -V -f -t 15`
 
 Since this wasn't returning anything for quite sometime I looked at robots.txt 
-
-```
-Wubbalubbadubdub
-``` 
 Could this be a password? (Hint: Yes)
 
 ## What is the first ingredient Rick needs?
@@ -96,7 +92,7 @@ We have entered into `/portal.php` what could we do here?
 
 The welcome page has a command panel, lets try and use it!
 
-Before that, I quickly checked out the sourc code, found an interesting comment
+Before that, I quickly checked out the source code, found an interesting comment
 ```
 Vm1wR1UxTnRWa2RUV0d4VFlrZFNjRlV3V2t0alJsWnlWbXQwVkUxV1duaFZNakExVkcxS1NHVkliRmhoTVhCb1ZsWmFWMVpWTVVWaGVqQT0==
 ```
