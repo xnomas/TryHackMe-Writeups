@@ -1,5 +1,7 @@
 # Pickle Rick
 
+<b>Available at:</b> [TryHackMe](https://tryhackme.com/room/picklerick)
+
 IP: 10.10.0.135
 
 ### Initial scan
