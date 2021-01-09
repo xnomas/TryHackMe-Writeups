@@ -180,7 +180,7 @@ and we have the password
 
 After login we can see some notes in our home directory again. And it mentions `condor`... whats in his home directory? List it, see if you can figure out the `base`
 
-You should have an image if you managed to solve the `base` hint. Now how do we get something useful from it? Well the hint is in the name! (Mnemonic)[https://github.com/MustafaTanguner/Mnemonic] is a tool to crack images with a set of ascii codes. From the machine we have a set of codes! Now we just give it the image and we have a password :) 
+You should have an image if you managed to solve the `base` hint. Now how do we get something useful from it? Well the hint is in the name! [Mnemonic](https://github.com/MustafaTanguner/Mnemonic) is a tool to crack images with a set of ascii codes. From the machine we have a set of codes! Now we just give it the image and we have a password :) 
 
 ## Hack the machine
 
