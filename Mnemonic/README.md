@@ -213,9 +213,9 @@ Running...
 
 	#Show Os-release       [4]
 
-    #Root Shell Spawn      [5]           
+        #Root Shell Spawn      [5]           
 
-    #Print date            [6]
+        #Print date            [6]
 
 	#Exit                  [0]
 
