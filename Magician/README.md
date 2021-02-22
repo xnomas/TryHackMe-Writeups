@@ -94,7 +94,7 @@ Very long output, but interesting! Time to try port 8081
 
 ## WEB 
 
-What I see: [magician web](magician-web.png)
+What I see: ![magician web](magician-web.png)
 
 Okay, so we can upload images. I fiddled around and found out that the upload was unrestricted. 
 
@@ -203,5 +203,5 @@ And then on the victim machine:
 ./chisel client 10.8.147.71:9002 R:9001:127.0.0.1:6666
 ```
 Now you should be able to access the website from your browser at `localhost:9001`!</br>
-[magic-cat.png](magic-cat.png)
+![magic-cat.png](magic-cat.png)
 The prompt says to enter a file name... lets be bold... `/root/root.txt` And voila! It works! Now I got two outputs, hex and binary. Whichever you get, decode it get your well deserved flag!
