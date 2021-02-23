@@ -3,7 +3,7 @@
 At: [THM](https://tryhackme.com/room/magician)
 By: [M0N573R777](https://tryhackme.com/p/M0N573R777) and [ripcurlz](https://tryhackme.com/p/ripcurlz)
 
-Don't forget to add the IP to your `/etc/hosts` file as magician.thm!
+Don't forget to add the IP to your `/etc/hosts` file as magician!
 
 ## Enumeration 
 
