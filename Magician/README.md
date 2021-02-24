@@ -177,7 +177,7 @@ Uhm, okay? The oracle and locally listening part show us we should thoroughly se
 ```
 find /  -type f -user root -perm /4000 2>/dev/null
 ```
-Gives us nothing. However running `nestat -l` to look for local listening ports showed something interesting:
+Gives us nothing. However running `netsat -l` to look for local listening ports showed something interesting:
 ```
 magician@magician:~$ netstat -l
 Active Internet connections (only servers)
