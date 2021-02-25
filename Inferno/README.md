@@ -118,10 +118,10 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2021-02-25 03:26:
 [DATA] attacking http-get://10.10.44.236:80/inferno/
 [80][http-get] host: 10.10.44.236   login: admin   password: ******
 ```
-Awesome, now lets go to `/inferno/` there fill in the popup, and whats this?
-![login](login.png)
-Another login page, lets try for creds reusage. And shebam! 
-![dashboard](dashboard.png)
+Awesome, now lets go to `/inferno/` there fill in the popup, and whats this?</br>
+![login](login.png)</br>
+Another login page, lets try for creds reusage. And shebam!</br> 
+![dashboard](dashboard.png)</br>
 We are at an admin dashboard. This is `Codiad`. Lets see what we can do.
 
 ## DASHBOARD EXPLOITATION
