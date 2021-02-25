@@ -73,7 +73,7 @@ Now remember, when there are question marks, nmap isnt sure about the service. L
 
 ### WEB
 
-![welcome page](/img/inferno-welcome.png)
+![welcome page](inferno-welcome.png)
 The source is bland and gives nothing, time for some gobuster.
 ```
 gobuster dir -u http://$IP/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 30 -x js,txt,db,php,py
@@ -119,9 +119,9 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2021-02-25 03:26:
 [80][http-get] host: 10.10.44.236   login: admin   password: ******
 ```
 Awesome, now lets go to `/inferno/` there fill in the popup, and whats this?
-![login](/img/login.png)
+![login](login.png)
 Another login page, lets try for creds reusage. And shebam! 
-![dashboard](/img/dashboard.png)
+![dashboard](dashboard.png)
 We are at an admin dashboard. This is `Codiad`. Lets see what we can do.
 
 ## DASHBOARD EXPLOITATION
