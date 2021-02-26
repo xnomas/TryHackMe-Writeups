@@ -10,7 +10,7 @@ IP: 10.10.0.135
 
 `-sC` -> default scripts
 
-`-sV` -> tell us the verisons of running services
+`-sV` -> tell us the versions of running services
 
 `-oN nmap.txt` -> write the ouput into a file called 'nmap.txt'
 
