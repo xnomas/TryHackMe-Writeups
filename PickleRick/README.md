@@ -42,7 +42,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ### Web enumeration
 
-Using my tool webctf, we can see that the page has a username in the comments!
+Using my tool [webctf](https://github.com/xnomas/web-ctf-help), we can see that the page has a username in the comments!
 
 ```
 webctf http://10.10.0.135/ --comments
