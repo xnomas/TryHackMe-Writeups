@@ -75,7 +75,7 @@ Here is the renamed function along with renamed variables and an extra function.
 ![xor](./xor_func.png)</br>
 This time we will have to check the memory of the binary, and we can only do that while it is running. Time for debugging.</br>
 I couldnt get immunity debugger to run and IDA doesnt sit well with me, so I had to opt for the old OllyDBG. It is pretty ugly (sorry Olly)</br>
-From the flag function we know that the flag is set before a call to the `xor_func`. So I set a breakpoint at `xor_func` and examined the variables and memory:
+From the flag function we know that the flag is set before a call to the `xor_func`. So I set a breakpoint at `xor_func` and examined the variables and memory:</br>
 ![flag](./flag-l3.png)
 
 ## Level 4
@@ -86,9 +86,9 @@ Amcm↨QBu^YP+`lD↨V1pvY^BdR
 ```
 We can't search for this. But we can search for the function that printed this, either `printf` or `puts`. `Ctrl + Shift + E` in Ghidra and search for printf:</br>
 ![printf](./printf-l4.png)</br>
-So we can see the reference, as always I changed variable and function names to make it more readable:
+So we can see the reference, as always I changed variable and function names to make it more readable:</br>
 ![enc](./encryption_func.png)</br>
-Cool, and this is referenced in the following function:
+Cool, and this is referenced in the following function:</br>
 ![flag](./flag_function-level.png)</br>
 And we can see the flag variable, this can easily be broken at runtime, as the flag is loaded in unencrypted:</br>
 ![last_flag](./last_flag.png)</br>
