@@ -48,7 +48,7 @@ As a security analyst, you found some suspicious app in your organization which 
 Nice, we found it:</br>
 ![wow](./wow-l3.png)</br>
 *Yes, I switched to dark mode.* And so what about the other two strings?</br>
-![flag_function](/flag_function-level2.png)</br>
+![flag_function](./flag_function-level2.png)</br>
 Right, so we can see that in order to get the flag in `printf("%s",&local_20);` the input must be be equal to he local variable 20. How can we do this?
 ```
 PS D:\CTF\TryHackMe\REloaded> .\Level-2.exe a
