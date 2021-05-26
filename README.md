@@ -1,4 +1,6 @@
 # TryHackMe-Notes
-My TryHackMe notes
+Writeups for some of the TryHackMe rooms I have completed.
 
-Feel free to read through :)
+</br>
+
+*If you notice any mistakes, feel free to open an issue.* 
